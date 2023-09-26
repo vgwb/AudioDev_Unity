@@ -6,14 +6,81 @@ namespace KrillAudio.Krilloud
 	{
 		public class Tags
 		{
+			/// <summary>
+			/// Tag: ambiente
+			/// 2D
+			/// </summary>
+			public const string ambiente = "ambiente";
+
+			/// <summary>
+			/// Tag: musica
+			/// 2D
+			/// </summary>
+			public const string musica = "musica";
+
+			/// <summary>
+			/// Tag: objeto
+			/// 3D
+			/// </summary>
+			public const string objeto = "objeto";
+
+			/// <summary>
+			/// Tag: pasos
+			/// 2D
+			/// </summary>
+			public const string pasos = "pasos";
+
 		}
 
 		public class Variables
 		{
+			/// <summary>
+			/// Variable: cuerda
+			/// Range: [0 - 1]
+			/// Type: Local
+			/// </summary>
+			public const string cuerda = "cuerda";
+
+			/// <summary>
+			/// Variable: melo
+			/// Range: [0 - 1]
+			/// Type: Local
+			/// </summary>
+			public const string melo = "melo";
+
+			/// <summary>
+			/// Variable: piano
+			/// Range: [0 - 1]
+			/// Type: Local
+			/// </summary>
+			public const string piano = "piano";
+
+			/// <summary>
+			/// Variable: staccato
+			/// Range: [0 - 1]
+			/// Type: Local
+			/// </summary>
+			public const string staccato = "staccato";
+
+			/// <summary>
+			/// Variable: superficie
+			/// Range: [0 - 2]
+			/// Type: Global
+			/// </summary>
+			public const string superficie = "superficie";
+
 		}
 
 		public class Channels
 		{
+			public const string ambiente = "ambiente";
+
+			public const string Master = "Master";
+
+			public const string musica = "musica";
+
+			public const string sFX = "sFX";
+
 		}
 	}
 }

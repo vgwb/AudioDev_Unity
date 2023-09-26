@@ -20,7 +20,75 @@ MonoBehaviour:
     tags: []
     variables: []
   cacheContract:
-    tags: []
-    variables: []
+    tags:
+    - name: ambiente
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 1
+      channelId: 1
+      sourceContract: 2
+    - name: pasos
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: musica
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 1
+      channelId: 3
+      sourceContract: 2
+    - name: objeto
+      description: 
+      is3D: 1
+      max3DDistance: 10
+      isLoop: 1
+      channelId: 2
+      sourceContract: 2
+    variables:
+    - name: piano
+      defaultValue: 1
+      isGlobal: 0
+      source: 2
+      content: 0
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: cuerda
+      defaultValue: 1
+      isGlobal: 0
+      source: 2
+      content: 0
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: staccato
+      defaultValue: 1
+      isGlobal: 0
+      source: 2
+      content: 0
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: melo
+      defaultValue: 0.8
+      isGlobal: 0
+      source: 2
+      content: 0
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: superficie
+      defaultValue: 0.2
+      isGlobal: 1
+      source: 2
+      content: 0
+      min: 0
+      max: 2
+      sourceContract: 2
     soundbank_files: []
     channels: []
